@@ -253,7 +253,7 @@ DEPENDENCIES
   jbuilder (= 2.10.0)
   listen (= 3.4.1)
   paddle_pay (~> 0.1)
-  pay (= 3.0.23)
+  pay (~> 3.0)
   pg (= 1.2.3)
   puma (= 5.3.1)
   rack-mini-profiler (= 2.3.1)

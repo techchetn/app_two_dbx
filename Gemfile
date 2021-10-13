@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-
+gem 'pay', '~> 3.0'
 gem 'rails',      '6.1.4.1'
 gem 'puma',       '5.3.1'
 gem 'sass-rails', '6.0.0'
@@ -25,7 +25,7 @@ group :test do
   gem 'capybara',           '3.35.3'
   gem 'selenium-webdriver', '3.142.7'
   gem 'webdrivers',         '4.6.0'
-  gem 'pay', '3.0.23'
+  #gem 'pay', '3.0.23'
   gem 'stripe', '< 6.0', '>= 2.8'
   gem 'stripe_event', '~>2.3'
   gem 'braintree', '< 3.0', '>= 2.92.0'
