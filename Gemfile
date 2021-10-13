@@ -25,10 +25,17 @@ group :test do
   gem 'capybara',           '3.35.3'
   gem 'selenium-webdriver', '3.142.7'
   gem 'webdrivers',         '4.6.0'
+  gem 'pay', '3.0.23'
+  gem 'stripe', '< 6.0', '>= 2.8'
+  gem 'stripe_event', '~>2.3'
+  gem 'braintree', '< 3.0', '>= 2.92.0'
+  gem 'receipts', '~> 1.0.0'
+  gem 'paddle_pay', '~> 0.1'
 end
 
 group :production do
   gem 'pg', '1.2.3'
+  
 end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # Uncomment the following line if you're running Rails
